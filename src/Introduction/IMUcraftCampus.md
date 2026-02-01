@@ -34,13 +34,7 @@ IMUcraft方块内大是由Ysjttt发起的一项重要的复原工程，旨在发
 
 - 需要为内蒙古大学在校生或毕业生
 
-<iframe
-style="width:728px;height:90px;max-width:100%;border:none;display:block;margin:auto;pointer-events:none"
-src="https://de.namemc.com/server/play.imu.nm.cn/embed"
-width="728"
-height="90"
-sandbox="allow-same-origin">
-</iframe>
+<iframe style="width:728px;height:90px;max-width:100%;border:none;display:block;margin:auto" src="https://namemc.com/server/play.imu.nm.cn/embed" width="728" height="90"></iframe>
 
 ## **三、现状**
 
