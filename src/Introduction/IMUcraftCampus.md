@@ -34,16 +34,17 @@ IMUcraft方块内大是由Ysjttt发起的一项重要的复原工程，旨在发
 
 - 需要为内蒙古大学在校生或毕业生
 
-<!-- 核心 iframe 代码 -->
 <iframe 
   src="https://api.loohpjames.com/serverbanner.png?ip=play.imu.nm.cn"
-  width="800"  <!-- 横幅默认宽度，可根据需要调整 -->
-  height="100" <!-- 横幅默认高度，可根据需要调整 -->
-  frameborder="0"  <!-- 去掉 iframe 自带的边框 -->
-  scrolling="no"   <!-- 禁止滚动条 -->
+  width="800"  <!-- 横幅默认宽度, 可根据需要调整 -->
+  height="100" <!-- 横幅默认高度, 可根据需要调整 -->
+  frameborder="0"  
+  scrolling="no"   
+  title="MC服务器状态横幅"
 >
-  你的浏览器不支持iframe，请升级浏览器查看服务器状态
+  你的浏览器不支持iframe, 请升级浏览器查看服务器状态
 </iframe>
+
 ## **三、现状**
 
 目前已经造出了内蒙古大学南区东院、北区西院，目前正筹划开展南区西院和北区东院以及两个已完成校区的完善工作。
