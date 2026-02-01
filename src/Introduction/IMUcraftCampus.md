@@ -34,16 +34,34 @@ IMUcraft方块内大是由Ysjttt发起的一项重要的复原工程，旨在发
 
 - 需要为内蒙古大学在校生或毕业生
 
-<iframe 
+<style>
+/* 服务器状态横幅自适应样式 */
+.mc-server-banner {
+  width: 100%;          /* 宽度占满父容器 */
+  max-width: 800px;     /* 大屏下最大宽度，避免拉伸模糊 */
+  height: auto;         /* 自动按宽高比缩放，防止变形 */
+  display: block;       /* 块级元素，方便居中 */
+  margin: 1rem auto;    /* 上下间距 + 水平居中 */
+  border: none;         /* 去掉默认边框 */
+}
+
+/* 兼容老旧浏览器的降级处理（可选） */
+@media (max-width: 768px) {
+  .mc-server-banner {
+    max-width: 100%;    /* 移动端占满屏幕宽度 */
+    padding: 0 0.5rem;  /* 移动端左右留边，避免贴边 */
+    box-sizing: border-box;
+  }
+}
+</style>
+
+<!-- 服务器状态横幅：优先用 img 方案（GitHub Pages 加载更快、更稳定） -->
+<img 
+  class="mc-server-banner"
   src="https://api.loohpjames.com/serverbanner.png?ip=play.imu.nm.cn"
-  width="800"  <!-- 横幅默认宽度, 可根据需要调整 -->
-  height="100" <!-- 横幅默认高度, 可根据需要调整 -->
-  frameborder="0"  
-  scrolling="no"   
-  title="MC服务器状态横幅"
+  alt="IMUcraft 服务器实时状态"
+  title="IMUcraft 服务器在线人数/状态"
 >
-  你的浏览器不支持iframe, 请升级浏览器查看服务器状态
-</iframe>
 
 ## **三、现状**
 
